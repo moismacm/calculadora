@@ -115,7 +115,13 @@
                 num1 = Math.pow(num2, num1);
                 break;
                  case 6:
-                num1 = Math.sqrt(num1);
+               
+                 if (num1<0) {
+                    alert("Recuerde!! Las raices son imaginarias")
+                 }
+                 else{
+                     num1 = Math.sqrt(num1);
+                 }
                 break;
                
             }
